@@ -6,12 +6,10 @@
     ":semanticCommitTypeAll(chore)",
     "config:base",
     "schedule:weekly",
-    "group:allNonMajor"
+    "group:allNonMajor",
+    "workarounds:typesNodeVersioning"
   ],
   "labels": [
     "dependencies"
-  ],
-  "ignoreDeps": [
-    "node"
   ]
 }
