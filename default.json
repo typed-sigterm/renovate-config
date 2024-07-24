@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    ":dependencyDashboard",
+    ":dependencyDashboardApproval",
+    ":semanticCommitTypeAll(chore)",
+    "config:base",
+    "schedule:weekly",
+    "group:allNonMajor"
+  ],
+  "labels": [
+    "dependencies"
+  ],
+  "ignoreDeps": [
+    "node"
+  ]
+}
