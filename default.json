@@ -1,10 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
+    "config:base",
     ":dependencyDashboardApproval",
     ":enableVulnerabilityAlerts",
     ":semanticCommitTypeAll(chore)",
-    "config:base",
     "schedule:weekly",
     "group:allNonMajor",
     "workarounds:typesNodeVersioning"
