@@ -9,7 +9,7 @@
   ],
   "ignorePresets": [
     "group:recommended",
-    ":pinDevDependencies",
+    ":pinDevDependencies"
   ]
   "labels": [
     "dependencies"
