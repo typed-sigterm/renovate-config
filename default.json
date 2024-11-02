@@ -18,6 +18,10 @@
   ],
   "packageRules": [
     {
+      "matchPackageNames": ["@types/vscode"],
+      "enabled": false
+    },
+    {
       "matchPackageNames": ["nuxt"],
       "allowedVersions": "<= 3.13.1 || > 3.13.2"
     }
