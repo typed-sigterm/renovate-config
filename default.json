@@ -10,6 +10,9 @@
     ":dependencyDashboardApproval",
     ":semanticCommitTypeAll(chore)"
   ],
+  "gitIgnoredAuthors": [
+    "114827586+autofix-ci[bot]@users.noreply.github.com"
+  ],
   "ignorePresets": [
     "group:recommended"
   ],
