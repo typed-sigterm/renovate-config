@@ -24,5 +24,8 @@
       "matchPackageNames": ["@types/vscode"],
       "enabled": false
     }
-  ]
+  ],
+  "vulnerabilityAlerts": {
+    "prCreation": "approval"
+  }
 }
