@@ -19,12 +19,18 @@
   "labels": [
     "dependencies"
   ],
-  "packageRules": [
-    {
-      "matchPackageNames": ["@types/vscode"],
-      "enabled": false
-    }
-  ],
+  "packageRules": [{
+    "matchPackageNames": ["@types/vscode"],
+    "enabled": false
+  }, {
+    "groupName": "reusable GitHub Actions",
+    "groupSlug": "github-actions",
+    "matchPackageNames": ["*"],
+    "matchManagers": [
+      "github-actions"
+    ],
+    "matchUpdateTypes": ["digest"]
+  }],
   "vulnerabilityAlerts": {
     "prCreation": "approval"
   }
