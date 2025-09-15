@@ -22,8 +22,12 @@
   "packageRules": [{
     "matchPackageNames": ["@types/vscode"],
     "enabled": false
+  }, {
+    "matchManagers": ["github-actions"],
+    "groupName": "reusable GitHub Actions"
   }],
   "vulnerabilityAlerts": {
     "prCreation": "approval"
   }
 }
+
