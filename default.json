@@ -25,9 +25,15 @@
   }, {
     "matchManagers": ["github-actions"],
     "groupName": "reusable GitHub Actions"
+  }, {
+    "matchDatasources": ["docker", "npm"],
+    "matchPackageNames": ["@types/bun", "bun", "oven/bun"],
+    "matchManagers": ["asdf"],
+    "groupName": "Bun"
   }],
   "vulnerabilityAlerts": {
     "prCreation": "approval"
   }
 }
+
 
